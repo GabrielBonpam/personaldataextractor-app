@@ -5,9 +5,7 @@ import openai
 from PIL import Image
 import io
 import json
-from dotenv import load_dotenv
 
-load_dotenv()
 
 # CONFIGURAÇÃO
 st.set_page_config(page_title="Leitor de Documentos Inteligentes", layout="wide")
