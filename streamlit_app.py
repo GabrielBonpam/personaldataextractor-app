@@ -43,7 +43,8 @@ def extract_document_fields_with_openai(image_b64: str):
                             "- Número do documento (RG ou CNH)\n"
                             "- CPF (se presente)\n"
                             "- Órgão emissor (RG) ou Categoria (CNH)\n"
-                            "- Nome do pai / mãe (Certidão)\n\n"
+                            "- Nome da mãe (Certidão)\n\n"
+                            "- Nome do pai (Certidão)\n\n"
                             "Responda SOMENTE com um objeto JSON válido e nada mais. Não inclua explicações. Envolva o conteúdo com três crases seguidas de json no início e três crases no fim, assim:\n```json\n{{ JSON aqui }}\n```"
                         ),
                     },
