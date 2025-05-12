@@ -35,7 +35,7 @@ def extract_document_fields_with_openai(image_b64: str):
                         "type": "text",
                         "text": (
                             "Você é um extrator de documentos brasileiros. "
-                            "A imagem enviada é um RG, CNH ou Certidão de Nascimento. "
+                            "A imagem pode ser um RG, CNH ou Certidão de Nascimento. Classifique o tipo de documento (RG, CNH ou Certidão de Nascimento) e depois extraia os dados relevantes. "
                             "Extraia os seguintes campos, se disponíveis:\n\n"
                             "- Tipo de Documento\n"
                             "- Nome\n"
